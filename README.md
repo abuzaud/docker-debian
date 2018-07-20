@@ -6,7 +6,7 @@ docker create --tty --interactive --name="debian_server" debian:server
 ```
 
 Pour attacher le container à la console
-`docker start --attach debian_server`
+`docker start --attach debian_server .`
 
 
 ## Raccourcis docker
